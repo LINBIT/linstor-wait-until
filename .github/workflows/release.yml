@@ -29,3 +29,6 @@ jobs:
             -s
           md5sum: "FALSE"
           sha256sum: "TRUE"
+          extra_files: LICENSE README.md
+        env:
+          CGO_ENABLED: "0"

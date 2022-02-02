@@ -6,11 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2022-02-02
+
+- Static build artifacts
+
 ## [0.1.0] - 2022-02-02
 
 ### Added
 
 - Initial command, supporting `api-online` and `satellite-online` commands.
-- 
+
 [Unreleased]: https://github.com/LINBIT/linstor-wait-until/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/LINBIT/linstor-wait-until/releases/tag/v0.1.0

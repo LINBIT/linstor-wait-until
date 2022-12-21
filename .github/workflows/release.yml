@@ -14,14 +14,14 @@ jobs:
           - arm64
           - ppc64le
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: compile and release
-        uses: wangyoucao577/go-release-action@v1.22
+        uses: wangyoucao577/go-release-action@v1.34
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           goarch: ${{ matrix.goarch }}
           goos: linux
-          goversion: 1.17
+          goversion: 1.19
           ldflags: >
             -extldflags -static
             -X "main.Version=${{ github.ref }}"

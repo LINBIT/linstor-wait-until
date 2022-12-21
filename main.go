@@ -39,7 +39,7 @@ func main() {
 	}
 
 	if err != nil {
-		log.WithError(err).Fatal("error parsing agruments")
+		log.WithError(err).Fatal("error parsing arguments")
 	}
 
 	lc, err := client.NewClient(client.Log(log))

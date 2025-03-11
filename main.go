@@ -42,7 +42,10 @@ func main() {
 		log.WithError(err).Fatal("error parsing arguments")
 	}
 
-	lc, err := client.NewClient(client.Log(log))
+	lc, err := client.NewClient(
+		client.Log(log),
+		client.UserAgent(fmt.Sprintf("linstor-wait-until/%s", Version)),
+	)
 	if err != nil {
 		log.WithError(err).Fatal("failed to create LINSTOR client")
 	}

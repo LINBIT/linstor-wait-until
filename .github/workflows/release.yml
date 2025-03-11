@@ -23,7 +23,7 @@ jobs:
           goos: linux
           ldflags: >
             -extldflags -static
-            -X "main.Version=${{ github.ref }}"
+            -X "main.Version=${{ github.ref_name }}-${{ github.sha }}"
             -w
             -s
           md5sum: "FALSE"

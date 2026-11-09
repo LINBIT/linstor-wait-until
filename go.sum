@@ -1,5 +1,5 @@
-github.com/LINBIT/golinstor v0.65.2 h1:EVM2avAayR4sJk4wZ0X8MEX5LjP9/haDT6aEE5ecs4s=
-github.com/LINBIT/golinstor v0.65.2/go.mod h1:LrjAIoiOeyrfkQpWNHuAvwMSGPD9ISDZMUekSQ4i/V0=
+github.com/LINBIT/golinstor v0.65.3 h1:uC+Ns9pMihWVlx6J4DsnA5DqdVPges96eWi74jKyvpw=
+github.com/LINBIT/golinstor v0.65.3/go.mod h1:LrjAIoiOeyrfkQpWNHuAvwMSGPD9ISDZMUekSQ4i/V0=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/donovanhide/eventsource v0.0.0-20210830082556-c59027999da0 h1:C7t6eeMaEQVy6e8CarIhscYQlNmw5e3G36y7l7Y21Ao=
 github.com/donovanhide/eventsource v0.0.0-20210830082556-c59027999da0/go.mod h1:56wL82FO0bfMU5RvfXoIwSOP2ggqqxT+tAfNEIyxuHw=

@@ -3,7 +3,7 @@ module github.com/LINBIT/linstor-wait-until
 go 1.26.0
 
 require (
-	github.com/LINBIT/golinstor v0.65.2
+	github.com/LINBIT/golinstor v0.65.3
 	github.com/sirupsen/logrus v1.10.2
 )
 
